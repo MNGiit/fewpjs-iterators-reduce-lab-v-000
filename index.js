@@ -6,3 +6,5 @@ let reducer = function(batteries) {
   return batteries.reduce();
 }
 let totalBatteries = reducer;
+
+const totalBatteries = batteryBatches.reduce((total, batch) => total + batch, 0);
